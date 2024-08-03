@@ -7,7 +7,7 @@ sudo apt-get install -y x11-apps x11-utils x11-xserver-utils xvfb i3 scrot npm
 
 # Get the directory of the current script
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
-START_VIRTUAL_X="$SCRIPT_DIR/start-virtual-x.sh"
+START_VIRTUAL_X="$SCRIPT_DIR/start-virtual-display.sh"
 
 # Check if the file exists and is not executable
 if [ ! -x "$START_VIRTUAL_X" ]; then
